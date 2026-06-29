@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0">
+  <diagram name="Страница — 1" id="dSVDeuxIuxjSmYegVm_c">
+    <mxGraphModel dx="940" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Клиент" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="440" as="sourcePoint" />
+            <mxPoint x="250" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Создать заказ" vertex="1">
+          <mxGeometry height="40" width="100" x="250" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="480" as="sourcePoint" />
+            <mxPoint x="270" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Отследить статус" vertex="1">
+          <mxGeometry height="40" width="120" x="270" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Курьер" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="570" as="sourcePoint" />
+            <mxPoint x="260" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Посмотреть активные заказы" vertex="1">
+          <mxGeometry height="40" width="120" x="260" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="600" as="sourcePoint" />
+            <mxPoint x="260" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Обновить статус заказа" vertex="1">
+          <mxGeometry height="40" width="120" x="270" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Оператор" vertex="1">
+          <mxGeometry height="60" width="30" x="430" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="440" as="sourcePoint" />
+            <mxPoint x="510" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Принять заказ" vertex="1">
+          <mxGeometry height="50" width="150" x="510" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="470" as="sourcePoint" />
+            <mxPoint x="530" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Назначить курьера" vertex="1">
+          <mxGeometry height="50" width="130" x="530" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="505" as="sourcePoint" />
+            <mxPoint x="530" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQxWybIiCaX3jjfEnLS4-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Изменить статус заказа" vertex="1">
+          <mxGeometry height="40" width="120" x="535" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
